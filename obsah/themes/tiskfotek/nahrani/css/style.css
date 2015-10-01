@@ -615,25 +615,21 @@ display:none!important;
     background: #f3f3f3;
 }
 .tlacitka_blok{
-    margin-top: 90px;
+    margin-top: 55px;
     margin-bottom: 10px;
-    min-height: 80px;
+    min-height: 45px;
 }
-.tlacitka_blok .btn{ 
-    height: 72px;
-}
+
 .tlacitka_blok .koko {
-    padding-top: 25px;
     margin-left: 0 !important;
 }
 
 .celkova-cena{
     display: block;
-    height: 70px;
-    line-height: 70px;
+    line-height: 40px;
     margin-top: 10px;
-    padding-left: 55px;
-    padding-right: 50px;
+    padding-left: 54px;
+    padding-right: 53px;
     background: #8f5cb8;
     color: #fff;
     border-radius: 3px;
