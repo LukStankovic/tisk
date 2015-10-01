@@ -30,6 +30,7 @@ else{
 <script>
     
 jQuery( document ).ready(function() {
+    jQuery("select[name='addon-3032-material']").val("leskly-fotopapir-1");
 //Deklarace promenny pro JS
     var vysledek<?php echo $kolotoc; ?> = '';
     var fotkaS<?php echo $kolotoc; ?> = "<?php echo $sizex; ?>";
@@ -108,11 +109,14 @@ else if (dpi<?php echo $kolotoc; ?> >= 150)
     
    
 // Pri vybrani se změni input na zeleny s fajfkou
-//Orez je defaultne
+//Orez a leskly fotopapir je defaultne
        $(  "div.product-addon.product-addon-typ" ).find( "a.chosen-single" ).css( "background", "#2ECC71", "important" );
        $(  "div.product-addon.product-addon-typ" ).find( "a.chosen-single" ).css( "color", "#2ECC71", "important" );
        $(  "div.product-addon.product-addon-typ" ).find( "span" ).addClass( "vyborna" ); 
     
+       $(  "div.product-addon.product-addon-material" ).find( "a.chosen-single" ).css( "background", "#2ECC71", "important" );
+       $(  "div.product-addon.product-addon-material" ).find( "a.chosen-single" ).css( "color", "#2ECC71", "important" );
+       $(  "div.product-addon.product-addon-material" ).find( "span" ).addClass( "vyborna" ); 
     
     
     jQuery('#fotka-<?php echo $kolotoc; ?> .addon-wrap-3032-format select').change(function() {
