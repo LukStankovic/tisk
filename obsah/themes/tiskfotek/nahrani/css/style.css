@@ -566,6 +566,10 @@ td.tlacitka-nahrani{
     line-height: 21px;
 }
 
+.kvalita.vyborna:after, .kvalita.prumerna:after, .kvalita.spatna:after {
+    right: 39px;
+}
+
 .spatna{
     color: #fff;
     background: #CF000F;
