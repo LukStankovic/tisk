@@ -30,7 +30,6 @@ else{
 <script>
     
 jQuery( document ).ready(function() {
-    jQuery("select[name='addon-3032-material']").val("leskly-fotopapir-1");
 //Deklarace promenny pro JS
     var vysledek<?php echo $kolotoc; ?> = '';
     var fotkaS<?php echo $kolotoc; ?> = "<?php echo $sizex; ?>";
